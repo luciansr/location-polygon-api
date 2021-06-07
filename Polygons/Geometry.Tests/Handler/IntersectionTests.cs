@@ -38,7 +38,7 @@ namespace Geometry.Tests.Handler
         }
         
         [Fact]
-        public void DecimalSegments_DoesntIntersect()
+        public void DoubleSegments_DoesntIntersect()
         {
             var list = new List<Tuple<Segment, Segment>>
             {
@@ -84,7 +84,7 @@ namespace Geometry.Tests.Handler
         }
 
         [Fact]
-        public void DecimalSegments_Intersect()
+        public void DoubleSegments_Intersect()
         {
             var list = new List<Tuple<Segment, Segment>>
             {
