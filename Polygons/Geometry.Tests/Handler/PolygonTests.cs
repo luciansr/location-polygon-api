@@ -41,6 +41,13 @@ namespace Geometry.Tests.Handler
                         new Point(-43.1867543,  -22.949497), 
                         new Point(-43.186824, -22.9503071),
                         new Point(-43.1864351, -22.9496674),
+                    })),
+                new(
+                    new Point(-43.1865786, -22.9499329),
+                    new Polygon(new []
+                    {
+                        new Point(-43.1867543,  -22.949497), 
+                        new Point(-43.186824, -22.9503071)
                     }))
             };
 
